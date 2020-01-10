@@ -1,0 +1,37 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1366px;
+}
+.el-breadcrumb {
+  margin-bottom: 15px;
+}
+.el-row {
+  margin-bottom: 20px;
+}
+.el-table {
+  margin-bottom: 20px;
+}
+.el-tag {
+  margin-right: 7px;
+}
+.el-pagination {
+  margin-top: 15px;
+}
+/* 组件的内部样式需要在全局css中设置 */
+.el-cascader-menu {
+  height: 200px;
+}
+.el-steps {
+  margin-top: 30px;
+  margin-bottom:20px;
+}
+.el-tabs {
+  margin-top: 25px;
+}
+.quill-editor{
+  height: 300px;
+}

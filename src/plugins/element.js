@@ -1,0 +1,87 @@
+import Vue from 'vue'
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Notification,
+  Container,
+  Aside,
+  Main,
+  Header,
+  Submenu,
+  MenuItemGroup,
+  MenuItem,
+  Menu,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  Row,
+  Col,
+  Table,
+  TableColumn,
+  Switch,
+  Tooltip,
+  Pagination,
+  Dialog,
+  Tag,
+  MessageBox,
+  Tree,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  Select,
+  Option,
+  Alert,
+  Cascader,
+  TabPane,
+  Tabs,
+  Steps,
+  Step,
+  Checkbox,
+  CheckboxGroup,
+  Upload
+} from 'element-ui'
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Header)
+Vue.use(Submenu)
+Vue.use(MenuItemGroup)
+Vue.use(MenuItem)
+Vue.use(Menu)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Switch)
+Vue.use(Tooltip)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Dropdown)
+Vue.use(DropdownItem)
+Vue.use(DropdownMenu)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Alert)
+Vue.use(Cascader)
+Vue.use(TabPane)
+Vue.use(Tabs)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Upload)
+
+Vue.prototype.$remindMes = Notification
+Vue.prototype.$confirm = MessageBox.confirm
